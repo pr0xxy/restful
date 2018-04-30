@@ -35,8 +35,7 @@ class TestFib(unittest.TestCase):
 
         response = \
             requests.get('http://127.0.0.1:5000/fibonacci/5'.format(platform.node()))
-        self.assertEqual(str([0, 1, 1, 2, 3]), response.content,
-                         response.content)
+        self.assertEqual(str([0, 1, 1, 2, 3]), (str(response.content))
 
 
 if __name__ == '__main__':
