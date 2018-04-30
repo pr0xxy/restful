@@ -131,7 +131,7 @@ If everything was done correctly your output should look like this:
 ```
 ## Unit and Functional Testing
 
-Your webservice is running and you need to test it.
+Your webservice is running and you need to test it. In a **_seperate terminal_** navigate back to fibonacci directory
 
 ```
 python3 restful/test.py
