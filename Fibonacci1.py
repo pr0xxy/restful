@@ -10,6 +10,7 @@ This project provides a RESTful web service.
 """
 from flask import Flask, request
 
+app = Flask(__name__)
 
 @app.route('/')
 def restful_api():
