@@ -133,5 +133,8 @@ If everything was done correctly your output should look like this:
 
 Your webservice is running and you need to test it.
 
+```
+python restful/test.py
+```
 
 
