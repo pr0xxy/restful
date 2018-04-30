@@ -70,17 +70,17 @@ fibonacci
 On Windows:
 
 ```
-py -3 -m venv venv
+py -3 -m venv fibonacci
 ```
 
-If you needed to install virtualenv because you are on an older version of Python, use the following command instead:
+And if you needed to install virtualenv because you are on an older version of Python, use the following command instead:
 ```
-virtualenv venv
+virtualenv fibonacci
 ```
 On Windows:
 
 ```
-\Python27\Scripts\virtualenv.exe venv
+\Python27\Scripts\virtualenv.exe fibonacci
 ```
 
 ## Activate the environment
@@ -90,7 +90,7 @@ Before you work on your project, activate the corresponding environment:
 ```
 On Windows:
 ```
-venv\Scripts\activate
+fibonacci\Scripts\activate
 ```
 Your shell prompt will change to show the name of the activated environment.
 
