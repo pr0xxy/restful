@@ -137,6 +137,11 @@ Your webservice is running and you need to test it. In a **_seperate terminal_**
 cd fibonacci
 python3 restful/test.py
 ```
+The script runs 3 tests:
+
+- It checks to make sure the site is up. It checks the root of the web service
+- It accepts a negative number but gives an error **_Error! Number provided is not a positive number_**
+- It checks to see if the web service meets the example test n=5 [0,1,1,2,3]
 
 If everything works fine you should see the following output to signify test complete:
 ```
