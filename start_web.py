@@ -39,7 +39,7 @@ def cruncher(n):
 
 
 @app.route("/fibonacci/<string:seq>/")
-def sequence():
+def sequence(seq):
     """
     Call the fibonacci function above and convert the return value to a string
     Function borrowed from http://en.literateprograms.org/Fibonacci_numbers_(Python)
