@@ -95,12 +95,12 @@ fibonacci\Scripts\activate
 Your shell prompt will change to show the name of the activated environment.
 
 ### Install Flask
-Within the activated environment, use the following command to install Flask:
+Within the activated environment, use the following command to install Flask and requests:
 
 ```
 pip install Flask
+pip install requests
 ```
-
 
 ### Cloning the github repository
 
@@ -108,15 +108,30 @@ Once you have successfully installed Flask within your activated environment bac
 ```
 cd fibonacci
 git clone https://github.com/pr0xxy/restful.git
+```
+## Deployment
+
+Now that you have cloned the github repository you are ready to deploy the service to accept requests and respond to them appropriately.
+
+To start deploy the server enter the following command:
+
+```
 python3 restful/start_web.py
 ```
 
-Explain what these tests test and why
+If everything was done correctly your output should look like this:
 
 ```
-Give an example
+ * Serving Flask app "start_web" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
+## Unit and Functional Testing
 
-## Deployment
+Your webservice is running and you need to test it.
 
-Add additional notes about how to deploy this on a live system
+
+
