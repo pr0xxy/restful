@@ -134,6 +134,7 @@ If everything was done correctly your output should look like this:
 Your webservice is running and you need to test it. In a **_seperate terminal_** navigate back to fibonacci directory
 
 ```
+cd fibonacci
 python3 restful/test.py
 ```
 
