@@ -57,13 +57,14 @@ On Windows, as an administrator:
 \Python27\python.exe -m pip install virtualenv
 ```
 ## Create an environment
-Create a project folder and a venv folder within:
-On Linux
+
+Create a venv called "fibonacci". You'd preferably run the following commands in your project root dir:
+
+Unix Commands
 
 ```
-mkdir fibonacci
-cd fibonacci
-python3 -m venv venv
+# python3 -m venv fibonacci
+# ls
 ```
 On Windows:
 
@@ -99,7 +100,15 @@ Within the activated environment, use the following command to install Flask:
 pip install Flask
 ```
 
-### And coding style tests
+
+### Cloning the github repository
+
+Once you have successfully installed Flask within your activated environment backout of the "venv" directory into the "fibonacci" directory.
+```
+cd ..
+git clone https://github.com/pr0xxy/restful-virtustream.git
+sudo cp restful-virtustream/* venv/.
+```
 
 Explain what these tests test and why
 
