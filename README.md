@@ -20,7 +20,7 @@ Flask
 Instructions on how to install the RESTful service on Python Virtualenv using Flask
 
 On the Windows, UNIX/Linux or MAC system running Python
-Python 3 comes bundled with the venv module to create virtual environments. If you’re using a modern version of Python, you can continue on to the "Create an environment" section.
+Python 3 comes bundled with the venv module to create virtual environments. If you’re using a modern version of Python, you can continue on to the **"Create an environment"** section.
 
 If you are using Python 2, the venv module is not available. Instead, install virtualenv.
 
