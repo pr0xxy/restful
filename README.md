@@ -65,6 +65,7 @@ Unix Commands
 ```
 # python3 -m venv fibonacci
 # ls
+fibonacci
 ```
 On Windows:
 
@@ -85,7 +86,7 @@ On Windows:
 ## Activate the environment
 Before you work on your project, activate the corresponding environment:
 ```
-. venv/bin/activate
+. fibonacci/bin/activate
 ```
 On Windows:
 ```
@@ -105,9 +106,9 @@ pip install Flask
 
 Once you have successfully installed Flask within your activated environment backout of the "venv" directory into the "fibonacci" directory.
 ```
-cd ..
+cd fibonacci
 git clone https://github.com/pr0xxy/restful-virtustream.git
-sudo cp restful-virtustream/* venv/.
+python3 restful-virtustream/Fibonacci1.py
 ```
 
 Explain what these tests test and why
