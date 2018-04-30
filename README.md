@@ -99,7 +99,7 @@ Within the activated environment, use the following command to install Flask and
 
 ```
 pip install Flask
-pip install requests
+pip3 install requests
 ```
 
 ### Cloning the github repository
