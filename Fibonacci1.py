@@ -9,21 +9,10 @@ This project provides a RESTful web service.
 4. This program is written in python
 """
 from flask import Flask, request
-from werkzeug.routing import BaseConverter
-
-app = Flask(__name__)
-
-class RegexConverter(BaseConverter):
-    def __init__(self, url_map, *items):
-        super(RegexConverter, self).__init__(url_map)
-        self.regex = items[0]
-
-
-app.url_map.converters['regex'] = RegexConverter
 
 
 @app.route('/')
-def james_notoma():
+def restful_api():
     """
     This is for functional testing.
     :return: string
@@ -31,7 +20,7 @@ def james_notoma():
     return 'This is the root for RESTful web service'
 
 
-def run_fib(n):
+def cruncher(n):
     """
     Needs to raise an exception when the number is less than 0 or not a whole number. Otherwise return a list
     containing a Fibonacci sequence
@@ -48,18 +37,18 @@ def run_fib(n):
 
 
 
-@app.route("/fibonacci/<string:a_num>/")
-def fibber(a_num):
+@app.route("/fibonacci/<string:seq>/")
+def sequence():
     """
     Call the fibonacci function above and convert the return value to a string
     Function borrowed from http://en.literateprograms.org/Fibonacci_numbers_(Python)
-    :param a_num:
+    :param seq:
     :return:
     """
-    y = int(a_num)
+    y = int(seq)
     if (y < 0):
         return "Error! Number provided is not a positive number"
-    tmp = run_fib(y)
+    tmp = cruncher(y)
     return str(tmp)
 
 
