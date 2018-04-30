@@ -1,4 +1,4 @@
-# restful-virtustream
+# A RESTful API Service
 Building RESTful web service using Python & Flask
 
 ## Getting Started
@@ -107,8 +107,8 @@ pip install Flask
 Once you have successfully installed Flask within your activated environment backout of the "venv" directory into the "fibonacci" directory.
 ```
 cd fibonacci
-git clone https://github.com/pr0xxy/restful-virtustream.git
-python3 restful-virtustream/Fibonacci1.py
+git clone https://github.com/pr0xxy/restful.git
+python3 restful/start_web.py
 ```
 
 Explain what these tests test and why
