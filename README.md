@@ -134,7 +134,16 @@ If everything was done correctly your output should look like this:
 Your webservice is running and you need to test it.
 
 ```
-python restful/test.py
+python3 restful/test.py
+```
+
+If everything works fine you should see the following output to signify test complete:
+```
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.064s
+
+OK
 ```
 
 
